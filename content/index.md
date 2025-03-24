@@ -20,6 +20,13 @@ I'm a big tech enthusiast. I've been working with various kinds of technology fo
 ## Who is the audience of this blog?
 This blog is catered toward is pretty much anyone who is a working IT professional and has anything to do with linux, UNIX, MacOS X, DevOps, Cloud Operations, integration, and anything similar. Even if you are not a working IT professional, and you are just an enthusiast or hobbyist, you might find something useful here (I hope!).
 
+## Contact info
+email: adary@adary.org
+Github: https://github.com/adaryorg
+Mastodon: https://mastodon.social/@adaryorg
+More might come :)
+Make sure to visit my health/fitness blog at https://ha45.org
+
 
 
 
