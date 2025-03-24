@@ -1,27 +1,25 @@
 ---
-title: Welcome to adary.org
-tags: 
+title: Welcome to adary.org - tech stuff for all tech lovers
+tags:
+  - linux
+  - tech
+  - blog
+  - adary
 draft: false
 ---
 
-Every journey must have a humble beginning, so let's make this the beginning of yet another incarnation of adary.org
+# Welcome to adary.org!
 
-```bash
-test_func() {
-	this is a test function
-}
-echo 0
-exit 1
-```
+![[images/portrait.jpeg|right| 200]] Every journey must have a humble beginning, so let's make this the beginning of yet another incarnation of adary.org. There have been a few previous incarnations, where adary.org tried to be a full fledged wordpress site, a blog, and whatnot, but all of them failed because I just couldn't find the time to work on it. I hope that this time the situation will be a bit different!
+## What or who is adary?
+The answer to that is rather simple. Adary is me. The dude behind the keyboard. Why adary? Thats' even simpler. My last name is Adar, and my first name starts with a Y (i was never accused of being very creative with names). Many years ago i worked at a company whose email/username policy was to take the last name, and attach the first letter of the first name, and that's how adary came to be. In my surroundings and the language I speak, adary easily rolls off the tongue, and to this day there are people that call me Adary (including my wife!)
 
-> [!NOTE]- collapsable section
-> testing collapsable stuff
-> 
-> more collapsable stuff
-> 
-> and even more
-> 
-> and even more ...
+## What is the purpose of this blog?
+I'm a big tech enthusiast. I've been working with various kinds of technology for the better part of the last 40 years. I love software, I love hardware, and I love to play with both. On the other hand I am a working professional, and I like to work in an environment that is pleasing to the eye, and that answers to all my day to day needs. I will probably write about software, and a bit less about hardware (except keyboards, I love keyboards) and about making my life as simple as possible using all that software and hardware (and keyboards!)
+
+
+
+
 
 
 
