@@ -1,6 +1,5 @@
-
 ---
-title: "How to publish Obsidian notes with Quartz on GitHub Pages"
+title: "Title - change me"
 draft: true
 tags:
   - tag1
