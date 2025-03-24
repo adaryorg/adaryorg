@@ -22,19 +22,11 @@ This blog is catered toward is pretty much anyone who is a working IT profession
 
 ## Contact info
 email: adary@adary.org
-Github: https://github.com/adaryorg
+
+https://github.com/adaryorg
+
 Mastodon: https://mastodon.social/@adaryorg
+
 More might come :)
+
 Make sure to visit my health/fitness blog at https://ha45.org
-
-
-
-
-
-
-
-
-
-
-
-
