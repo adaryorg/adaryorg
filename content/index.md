@@ -17,6 +17,11 @@ The answer to that is rather simple. Adary is me. The dude behind the keyboard. 
 ## What is the purpose of this blog?
 I'm a big tech enthusiast. I've been working with various kinds of technology for the better part of the last 40 years. I love software, I love hardware, and I love to play with both. On the other hand I am a working professional, and I like to work in an environment that is pleasing to the eye, and that answers to all my day to day needs. I will probably write about software, and a bit less about hardware (except keyboards, I love keyboards) and about making my life as simple as possible using all that software and hardware (and keyboards!)
 
+## Who is the audience of this blog?
+This blog is catered toward is pretty much anyone who is a working IT professional and has anything to do with linux, UNIX, MacOS X, DevOps, Cloud Operations, integration, and anything similar. Even if you are not a working IT professional, and you are just an enthusiast or hobbyist, you might find something useful here (I hope!).
+
+
+
 
 
 
