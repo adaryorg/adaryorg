@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: {
       provider: "google",
-      tagID: 'G-Y6N86GT3PZ'
+      tagId: 'G-Y6N86GT3PZ'
     },
     locale: "en-US",
     baseUrl: "adary.org",
