@@ -4,8 +4,9 @@ date: 26-03-2025
 tags:
   - nocturne
   - nvim
-  - linix
   - MacOS
+  - neovim
+  - linux
 ---
 # [[ nvim delete without yanking]]
 I cant even count how many times i wanted to paste something into nvim, but before pasting i had to delete a few lines, and then my clipboard gets replaced by what i deleted and then i have to copy/yank the same text again to paste into nvim ...
