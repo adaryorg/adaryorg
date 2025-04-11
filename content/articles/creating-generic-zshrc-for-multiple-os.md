@@ -55,7 +55,7 @@ zsh_eval zoxide init zsh
 zsh_eval atuin init zsh
 ```
 
-This block will try to initialize oh-my-zsh, homebrew, starship, zoxine and atuin, buf if the tools are not present in the environment it will just proceed without reporting any errors, which is the desired outcome. This can be used for pretty much any tool that needs to set itself up in the shell environment, and to source any helper that might exist for a particular environment.<br>
+This block will try to initialize oh-my-zsh, homebrew, starship, zoxide and atuin, buf if the tools are not present in the environment it will just proceed without reporting any errors, which is the desired outcome. This can be used for pretty much any tool that needs to set itself up in the shell environment, and to source any helper that might exist for a particular environment.<br>
 My use-case relies on zsh_src where in the work environment I would source a helper alias file with various ssh aliases, and in the home environment that file is not present, and the zshrc will just skip it and move on.
 
 Same applies for different environments between work laptop (MacOS) and home desktop (Some flavor of Linux) where in the work environment I would have homebrew (as shown in the example) and in the home environment I don't need it.
