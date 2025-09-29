@@ -1,5 +1,5 @@
 ---
-title: Welcome to adary.org - tech stuff for all tech lovers
+title: Welcome to adary.org - tech stuff for all tech oriented folks
 date: 2025-03-26
 tags:
   - linux
@@ -9,22 +9,27 @@ tags:
 draft: false
 ---
 
-# Welcome to adary.org!
+## **Welcome to adary.org: The Reboot**
 
-![[images/portrait.jpeg|right| 200]] Every journey must have a humble beginning, so let's make this the beginning of yet another incarnation of adary.org. There have been a few previous incarnations, where adary.org tried to be a full fledged wordpress site, a blog, and whatnot, but all of them failed because I just couldn't find the time to work on it. I hope that this time the situation will be a bit different!
+Like any good piece of software, this site has had a few previous versions. Let's just say they were… feature-light, and support was deprecated rather quickly. After a few false starts as a WordPress site, a blog, and a digital paperweight, this is the latest—and hopefully greatest—incarnation of adary.org. This time, the plan is to stick around.
 
-## What or who is adary?
+## **So, What's an 'Adary'?**
 
-The answer to that is rather simple. Adary is me. The dude behind the keyboard. Why adary? Thats' even simpler. My last name is Adar, and my first name starts with a Y (i was never accused of being very creative with names). Many years ago i worked at a company whose email/username policy was to take the last name, and attach the first letter of the first name, and that's how adary came to be. In my surroundings and the language I speak, adary easily rolls off the tongue, and to this day there are people that call me Adary (including my wife!)
+The short answer: It's me. The person behind the screen.
 
-## What is the purpose of this blog?
+The longer, less creative answer is that it's a relic of a long-gone corporate IT policy. My last name is Adar and my first name begins with Y. A former employer, in its infinite wisdom, decided my username should be a fusion of the two. I was never accused of being imaginative with names, but this one was surprisingly pronounceable, it stuck, and now people I've known for years—including my wife—call me Adary. I guess you can't fight fate, especially when it's written by the IT department.
 
-I'm a big tech enthusiast. I've been working with various kinds of technology for the better part of the last 40 years. I love software, I love hardware, and I love to play with both. On the other hand I am a working professional, and I like to work in an environment that is pleasing to the eye, and that answers to all my day to day needs. I will probably write about software, and a bit less about hardware (except keyboards, I love keyboards) and about making my life as simple as possible using all that software and hardware (and keyboards!)
+## **The Mission Statement (of sorts)**
 
-## Who is the audience of this blog?
+After nearly 40 years of tinkering, coding, and navigating the tech world, my enthusiasm has only grown. I'm fascinated by the intersection of powerful technology and practical, everyday use. My goal is to work in a digital environment that is not only efficient but also elegant.
 
-This blog is catered toward is pretty much anyone who is a working IT professional and has anything to do with linux, UNIX, MacOS X, DevOps, Cloud Operations, integration, and anything similar. Even if you are not a working IT professional, and you are just an enthusiast or hobbyist, you might find something useful here (I hope!).
+This space will be dedicated to exploring that theme. Expect musings on software, tips for optimizing digital workspaces, and strategies for making life simpler through technology. We'll talk less about hardware, with one glaring, clicky, mechanical exception: keyboards. I have a thing for keyboards.
 
+## **Who's This For?**
+
+If your world revolves around Linux, UNIX, macOS, or you spend your days wrangling the cloud, navigating DevOps pipelines, and integrating complex systems, you're in the right place.
+
+But you don't need a specific job title to hang out here. If you're a hobbyist, an enthusiast, or simply someone who believes a well-configured setup is a thing of beauty, you'll likely find something to pique your interest. Welcome aboard.
 ## Contact info
 
 email: adary@adary.org
