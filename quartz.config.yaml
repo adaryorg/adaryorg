@@ -219,8 +219,9 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/adaryorg
-        Mastodon: https://mastodon.social/@adaryorg
+        Codeberg: https://codeberg.org/adaryorg
+        YouTube: https://www.youtube.com/@adaryorg
+        Discord: https://discord.gg/bXzfuH9wV
         Email: mailto:adary@adary.org
     layout:
       position: footer
@@ -248,7 +249,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5

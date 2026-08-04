@@ -1,5 +1,5 @@
 ---
-title: Welcome to adary.org - tech stuff for all tech oriented folks
+title: "adary.org — Linux since 1994, DevOps, and sharp opinions"
 date: 2025-03-26
 tags:
   - linux
@@ -13,7 +13,7 @@ draft: false
   <div class="home-hero-copy">
     <p class="page-kicker">Tech, Linux &amp; Occasional Nonsense</p>
     <h1>adary<span class="brand-suffix">.org</span></h1>
-    <p class="home-hero-lead">Nearly 40 years of tinkering with Linux, UNIX, and DevOps, in pursuit of a digital workspace that's efficient <strong>and</strong> elegant. Also, keyboards. So many keyboards.</p>
+    <p class="home-hero-lead">I installed my first Linux system in 1994 — back when getting online meant a stack of floppy disks and a fair amount of blind optimism. Three decades later I'm still at it: working sysadmin, developer, and DevOps engineer by day, incurable tinkerer the rest of the time. This site is where all of that turns into something useful — real-world Linux, hard-earned opinions, and the occasional unnecessary keyboard purchase.</p>
     <div class="home-hero-actions">
       <a class="hero-button hero-button-primary" href="./articles">Browse Articles</a>
       <a class="hero-button hero-button-secondary" href="./blog">Read the Blog</a>
@@ -24,33 +24,33 @@ draft: false
   </figure>
 </section>
 
-## **Welcome to adary.org: The Reboot**
+## The Reboot
 
-Like any good piece of software, this site has had a few previous versions. Let's just say they were… feature-light, and support was deprecated rather quickly. After a few false starts as a WordPress site, a blog, and a digital paperweight, this is the latest—and hopefully greatest—incarnation of adary.org. This time, the plan is to stick around.
+This site has had more versions than I'd like to admit — a WordPress blog, a couple of redesigns, and at least one stretch as a glorified digital paperweight. Feature-light, support discontinued fast, the usual story. This is the latest incarnation, and this time I'm actually planning to stick around.
 
-## **So, What's an 'Adary'?**
+## What's an "Adary"?
 
-The short answer: It's me. The person behind the screen.
+Short answer: it's me.
 
-The longer, less creative answer is that it's a relic of a long-gone corporate IT policy. My last name is Adar and my first name begins with Y. A former employer, in its infinite wisdom, decided my username should be a fusion of the two. I was never accused of being imaginative with names, but this one was surprisingly pronounceable, it stuck, and now people I've known for years—including my wife—call me Adary. I guess you can't fight fate, especially when it's written by the IT department.
+Longer answer: it's leftover naming-convention debris from a corporate IT department. My last name is Adar, my first name starts with Y, and some long-forgotten policy decided my username should mash the two together. Not the most creative scheme anyone's come up with, but it turned out pronounceable enough that it stuck — my wife included. These days, pretty much everyone who's known me more than a few years just calls me Adary.
 
-## **The Mission Statement (of sorts)**
+## The Mission (of sorts)
 
-After nearly 40 years of tinkering, coding, and navigating the tech world, my enthusiasm has only grown. I'm fascinated by the intersection of powerful technology and practical, everyday use. My goal is to work in a digital environment that is not only efficient but also elegant.
+I've been taking things apart — computers, systems, my own workflows — for most of my life, and somehow the novelty never wore off. What still gets me is the gap between technology that's merely powerful and technology that actually works well for the person using it. Most of what ends up here lives in that gap: real configs, real workflows, and the occasional rant about software that made me want to throw a laptop across the room.
 
-This space will be dedicated to exploring that theme. Expect musings on software, tips for optimizing digital workspaces, and strategies for making life simpler through technology. We'll talk less about hardware, with one glaring, clicky, mechanical exception: keyboards. I have a thing for keyboards.
+Expect Linux, terminal-heavy workflows, DevOps war stories, and a running argument with hardware about why it should just behave. The one hardware exception is keyboards. I will absolutely talk about keyboards.
 
-## **Who's This For?**
+## Who This Is For
 
-If your world revolves around Linux, UNIX, macOS, or you spend your days wrangling the cloud, navigating DevOps pipelines, and integrating complex systems, you're in the right place.
+If Linux, Unix, or macOS is where you actually live — or your job involves wrangling cloud infrastructure, DevOps pipelines, or one too many moving parts — you'll probably feel at home here.
 
-But you don't need a specific job title to hang out here. If you're a hobbyist, an enthusiast, or simply someone who believes a well-configured setup is a thing of beauty, you'll likely find something to pique your interest. Welcome aboard.
-## Contact info
+You don't need a job title to stick around, either. Hobbyists, tinkerers, and anyone who thinks a well-configured system is a small work of art are just as welcome.
 
-email: adary@adary.org
+## Contact
 
-https://github.com/adaryorg
+- Email: [adary@adary.org](mailto:adary@adary.org)
+- Codeberg: [codeberg.org/adaryorg](https://codeberg.org/adaryorg)
+- YouTube: [@adaryorg](https://www.youtube.com/@adaryorg)
+- Discord: [Join the server](https://discord.gg/bXzfuH9wV)
 
-Mastodon: https://mastodon.social/@adaryorg
-
-More might come :)
+More channels might show up here eventually — we'll see.
