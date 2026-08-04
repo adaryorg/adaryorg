@@ -39,5 +39,3 @@ https://github.com/adaryorg
 Mastodon: https://mastodon.social/@adaryorg
 
 More might come :)
-
-Make sure to visit my health/fitness blog at https://ha45.org
