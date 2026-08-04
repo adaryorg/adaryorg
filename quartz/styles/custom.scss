@@ -1,3 +1,345 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// ============================================================================
+// Site header bar (brand + nav), sticky above the default 3-column layout.
+// ============================================================================
+
+.page[data-frame="default"] > #quartz-body {
+  --site-header-height: 4.5rem;
+
+  grid-template-columns: #{$sidePanelWidth} minmax(0, 1fr) #{$sidePanelWidth};
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
+    "grid-site-header grid-site-header grid-site-header"
+    "grid-sidebar-left grid-header grid-sidebar-right"
+    "grid-sidebar-left grid-center grid-sidebar-right"
+    "grid-sidebar-left grid-footer grid-sidebar-right";
+
+  .site-header-shell {
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    grid-area: grid-site-header;
+    box-sizing: border-box;
+    min-height: var(--site-header-height);
+    padding: 0 2rem;
+    border-bottom: 1px solid var(--lightgray);
+    background: color-mix(in srgb, var(--light) 92%, transparent);
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: -1px;
+      left: 0;
+      height: 2px;
+      background: linear-gradient(
+        90deg,
+        var(--secondary),
+        var(--tertiary) 55%,
+        transparent 90%
+      );
+      pointer-events: none;
+    }
+  }
+
+  .page-header {
+    margin-top: 2rem;
+  }
+
+  .sidebar {
+    padding-top: 2rem;
+  }
+
+  .sidebar.left,
+  .sidebar.right {
+    top: var(--site-header-height);
+    height: calc(100vh - var(--site-header-height));
+  }
+
+  @media all and ($tablet) {
+    grid-template-columns: #{$sidePanelWidth} auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas:
+      "grid-site-header grid-site-header"
+      "grid-sidebar-left grid-header"
+      "grid-sidebar-left grid-center"
+      "grid-sidebar-left grid-sidebar-right"
+      "grid-sidebar-left grid-footer";
+  }
+
+  @media all and ($mobile) {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas:
+      "grid-site-header"
+      "grid-sidebar-left"
+      "grid-header"
+      "grid-center"
+      "grid-sidebar-right"
+      "grid-footer";
+
+    .site-header-shell {
+      z-index: 300;
+      padding: 0.75rem 1rem;
+    }
+
+    .sidebar.left,
+    .sidebar.right {
+      top: auto;
+      height: unset;
+    }
+  }
+}
+
+.site-nav {
+  box-sizing: border-box;
+  min-height: var(--site-header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem 2rem;
+  padding: 0.75rem 0;
+
+  .site-nav-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    flex: 0 0 auto;
+    font-family: var(--titleFont);
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .site-nav-mark {
+    display: block;
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+
+  .site-nav-name {
+    color: var(--dark);
+
+    strong {
+      color: var(--tertiary);
+    }
+  }
+
+  .site-nav-tagline {
+    flex: 1 1 auto;
+    margin: 0;
+    color: var(--gray);
+    font-size: 0.9rem;
+    text-align: center;
+
+    strong {
+      color: var(--secondary);
+    }
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav li {
+    margin: 0;
+  }
+
+  nav a {
+    display: block;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.35rem;
+    color: var(--darkgray);
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+    transition:
+      color 0.15s ease,
+      background-color 0.15s ease;
+
+    &:hover,
+    &[aria-current="page"] {
+      color: var(--secondary);
+      background: var(--highlight);
+    }
+  }
+
+  @media all and ($mobile) {
+    justify-content: center;
+    text-align: center;
+
+    .site-nav-tagline {
+      display: none;
+    }
+  }
+}
+
+// ============================================================================
+// Homepage hero
+// ============================================================================
+
+// The hero is a fixed "brand spotlight" panel: it always renders dark with
+// light text, independent of the site's light/dark mode toggle. That keeps
+// it legible in both modes and lets it carry the exact adary.org brand
+// colours (white "adary" + magenta ".org") rather than the theme-adaptive
+// palette used everywhere else.
+$hero-bg: #0b0b0f; // Void
+$hero-heading: #f5f1f7; // Primary text
+$hero-body: #b8afbd; // Secondary text
+$hero-violet: #a855f7; // Violet Light
+$hero-magenta: #d946ef; // Magenta Glow
+
+.page-kicker {
+  margin: 0 0 0.6rem;
+  color: var(--secondary);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.home-hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(16rem, 0.9fr);
+  align-items: center;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  margin: 0 0 2.5rem;
+  padding: clamp(1.25rem, 3vw, 2.5rem);
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  border-radius: 1rem;
+  background:
+    linear-gradient(
+      100deg,
+      rgba(11, 11, 15, 0.96) 0%,
+      rgba(11, 11, 15, 0.89) 50%,
+      rgba(11, 11, 15, 0.96) 100%
+    ),
+    url("/static/hero-wave.webp") center / cover no-repeat, $hero-bg;
+  overflow: hidden;
+
+  .page-kicker {
+    color: $hero-violet;
+  }
+
+  h1 {
+    margin: 0;
+    color: $hero-heading;
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    line-height: 1.05;
+
+    .brand-suffix {
+      color: $hero-magenta;
+    }
+  }
+
+  .home-hero-lead {
+    max-width: 42rem;
+    margin: 1.1rem 0 0;
+    color: $hero-body;
+    font-size: clamp(1rem, 1.4vw, 1.15rem);
+    line-height: 1.55;
+
+    strong {
+      color: $hero-heading;
+    }
+  }
+
+  .home-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+
+  .hero-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.6rem;
+    padding: 0.6rem 1rem;
+    border: 1px solid $hero-violet;
+    border-radius: 0.45rem;
+    font-weight: 700;
+    line-height: 1;
+    transition:
+      transform 0.15s ease,
+      box-shadow 0.15s ease;
+
+    &.hero-button-primary {
+      // Brand kit's recommended primary purple gradient — darker
+      // (Electric Purple) than a flat Violet Light fill.
+      color: #fff;
+      background: linear-gradient(135deg, #6b1fa8 0%, #a855f7 55%, #d946ef 100%);
+      border-color: transparent;
+    }
+
+    &.hero-button-secondary {
+      color: $hero-violet;
+      background: rgba(168, 85, 247, 0.16);
+    }
+
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(168, 85, 247, 0.35);
+    }
+  }
+
+  .home-hero-visual img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    margin: 0;
+    border-radius: 0.85rem;
+    object-fit: cover;
+    box-shadow: 0 18px 44px rgba(0, 0, 0, 0.55);
+  }
+
+  @media all and ($mobile) {
+    grid-template-columns: 1fr;
+
+    .home-hero-visual {
+      order: -1;
+      max-width: 18rem;
+      margin: 0 auto;
+    }
+
+    .home-hero-visual img {
+      aspect-ratio: 4 / 3;
+    }
+  }
+}
+
+// ============================================================================
+// General purple/pink polish
+// ============================================================================
+
+::selection {
+  background: color-mix(in srgb, var(--tertiary) 45%, transparent);
+  color: var(--dark);
+}
+
+.center article:not(:has(.home-hero)) > h1 {
+  margin-bottom: 1.25rem;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 3rem;
+    height: 0.2rem;
+    margin-top: 0.6rem;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--secondary), var(--tertiary));
+  }
+}

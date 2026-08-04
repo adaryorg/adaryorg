@@ -9,6 +9,21 @@ tags:
 draft: false
 ---
 
+<section class="home-hero">
+  <div class="home-hero-copy">
+    <p class="page-kicker">Tech, Linux &amp; Occasional Nonsense</p>
+    <h1>adary<span class="brand-suffix">.org</span></h1>
+    <p class="home-hero-lead">Nearly 40 years of tinkering with Linux, UNIX, and DevOps, in pursuit of a digital workspace that's efficient <strong>and</strong> elegant. Also, keyboards. So many keyboards.</p>
+    <div class="home-hero-actions">
+      <a class="hero-button hero-button-primary" href="./articles">Browse Articles</a>
+      <a class="hero-button hero-button-secondary" href="./blog">Read the Blog</a>
+    </div>
+  </div>
+  <figure class="home-hero-visual">
+    <img src="./images/portrait.jpeg" alt="Portrait of Adary">
+  </figure>
+</section>
+
 ## **Welcome to adary.org: The Reboot**
 
 Like any good piece of software, this site has had a few previous versions. Let's just say they were… feature-light, and support was deprecated rather quickly. After a few false starts as a WordPress site, a blog, and a digital paperweight, this is the latest—and hopefully greatest—incarnation of adary.org. This time, the plan is to stick around.
